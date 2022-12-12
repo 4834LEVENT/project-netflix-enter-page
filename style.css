@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background: url(./background_image.jpg) no-repeat ;
+
+   height: 100vh;
+}
+html,body{
+    height: 100vh;
+}
+header{
+    padding-top:10px ;
+    text-align: center  ;
+    height: 100px;
+
+}
+h1{ 
+      
+    font-family: 'Bowlby One SC', cursive;
+    font-style: normal;
+    font-weight: 400;    
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 0.05em;
+}
+h1 span{
+    font-family: 'Bowlby One SC', cursive;
+    color:red;    
+}
+p{
+    
+    
+    height: 48px;
+    font-family: 'Sorts Mill Goudy', serif; 
+    font-size:25px ;
+}
+.container1{
+    background-color:rgba(59, 59, 59, 0.513);
+    
+    display: grid;
+    place-content: center;
+    margin: 30px 100px;
+    margin-bottom:40px ;
+}
+
+.black form {
+    background-color: rgba(0, 0, 0, 0.793);
+   
+    display: grid;
+    place-content: center;
+    font-size:20px ;
+    height:870px ;
+}
+
+.container2 {
+   
+   
+   color: white;
+   display: grid;
+   place-content:center ;
+
+  
+  
+   
+
+   
+}
+.container2 form{
+    margin-bottom: 10px;
+ 
+}
+
+form div{margin-bottom:20px ;
+  
+    
+}
+
+.container3 input{
+    width:450px ;
+    height: 45px;
+    font-size:15px ;
+    
+}
+
+select{
+    width:450px ;
+    height: 45px;
+    
+}
+#comment{
+    width:450px ;
+    height: 70px;
+    
+    font-size: 16px;
+}
+.container7{
+    display: grid;
+    place-content: center;
+    
+}
+.container7 input{
+    width: 150px;
+    height:45px ;
+    background-color: red;
+    border-radius:20px ;
+    font-size:20px ;
+}
+.container3 select{
+    font-size:15px ;
+    font-weight:500 ;
+}
+
+
